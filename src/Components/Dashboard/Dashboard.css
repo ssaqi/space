@@ -1,0 +1,47 @@
+.line{
+
+    width: 220px;
+    height: 1px;
+    background-color: grey;
+    margin: 30px;
+}
+
+.inp{
+
+    width: 700px;
+}
+
+
+#form{
+
+    width: 750px;
+}
+.card{
+
+    width: auto;
+}
+
+.ff{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+@media only screen and (max-width: 600px) {
+    
+    
+    #form{
+
+        width: 200px;
+    }
+
+    .card{
+
+        width: 200px;
+    }
+
+    .line{
+
+        width: 100px;
+    }
+  }
