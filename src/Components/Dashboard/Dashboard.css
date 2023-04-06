@@ -1,4 +1,4 @@
-.line{
+.line {
 
     width: 220px;
     height: 1px;
@@ -6,42 +6,72 @@
     margin: 30px;
 }
 
-.inp{
+.inp {
 
     width: 700px;
 }
 
 
-#form{
+#form {
 
     width: 750px;
 }
-.card{
+
+.card {
 
     width: auto;
 }
 
-.ff{
+.ff {
 
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
 }
+
+.btnn {
+
+    width: auto;
+}
+
+.btnn1 {
+
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
-    
-    
-    #form{
+
+
+    #form {
 
         width: 200px;
     }
 
-    .card{
+    .card {
 
         width: 200px;
     }
 
-    .line{
+    .line {
 
         width: 100px;
     }
-  }
+
+    .ff {
+
+        justify-content: space-between;
+
+    }
+
+    .btnn {
+
+        display: none;
+    }
+
+    .btnn1 {
+
+        display: block;
+    }
+
+
+}
