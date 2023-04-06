@@ -1,13 +1,12 @@
 import React from 'react'
-import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
-import DashboardIcon from '@mui/icons-material/Dashboard';
+import FilterListIcon from '@mui/icons-material/FilterList';
 import DashItems from './DashItems';
 import './Dashboard.css';
 export default function DashBoardScreen() {
     return (
         <>
-            <div className="container my-1 ">
+            <div className="container my-1 m-5 ">
                 <div className="row">
                     <h1
                         className="display-2 fw-bold text-dark text-loweruppercase"
@@ -27,14 +26,21 @@ export default function DashBoardScreen() {
                                 placeholder="Search Here"
                                
                             />
-                            <Button variant="outlined" startIcon={<DashboardIcon />}
+                            <div className='btnn'>
+                            <Button variant="outlined" startIcon={<FilterListIcon/>}
                                 className="btn text-white"
                                 style={{ backgroundColor: "#55acee", border: "none" }}
                             >
                               Add Filter
-                            </Button>
+                            </Button></div>
                         </div>
-
+                        <div className='btnn1'>
+                            <Button variant="outlined" startIcon={<FilterListIcon/>}
+                                className="btn text-white"
+                                style={{ backgroundColor: "#55acee", border: "none" }}
+                            >
+                              Add Filter
+                            </Button></div>
 
                     </div>
 
